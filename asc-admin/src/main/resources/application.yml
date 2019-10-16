@@ -1,8 +1,8 @@
 server:
   port: 8001
 
-logging:
-  level:
-    root: warn
-    com.asc.admin.dao: trace
-  pattern: '%p%m%s'
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

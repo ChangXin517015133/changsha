@@ -26,6 +26,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>2.1.7.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>com.asc</groupId>
+			<artifactId>asc-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!--swagger api-->
 		<dependency>

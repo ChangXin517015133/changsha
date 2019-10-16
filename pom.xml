@@ -11,5 +11,5 @@
 		<module>asc-common</module>
 		<module>asc-core</module>
 	</modules>
-
+	<packaging>pom</packaging>
 </project>

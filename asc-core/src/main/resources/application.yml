@@ -1,8 +1,4 @@
 server:
   port: 8001
 
-logging:
-  level:
-    root: warn
-    com.asc.core.dao: trace
-  pattern: '%p%m%s'
+
