@@ -1,8 +1,8 @@
 package com.asc.admin.controller;
 
-import com.asc.admin.service.ISysUserService;
-import com.asc.common.HttpResult;
-import com.asc.common.PageRequest;
+import com.asc.admin.service.SysUserService;
+import com.asc.asccommon.utils.HttpResult;
+import com.asc.asccore.page.PageRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,15 +13,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class SysUserController {
     @Autowired
-    private ISysUserService sysUserService;
+    private SysUserService sysUserService;
     @RequestMapping("/findAll")
     public Object findAll(){
-        return HttpResult.ok(sysUserService.list());
+        return HttpResult.ok("");
     }
 
     @PostMapping("/findPage")
     public HttpResult findPage(@RequestBody PageRequest pageRequest){
-        return HttpResult.ok(sysUserService.findAll(pageRequest));
+        return HttpResult.ok("");
     }
 
 }
