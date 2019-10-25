@@ -24,6 +24,7 @@
 		<module>asc-common</module>
 		<module>asc-core</module>
 		<module>asc-backup</module>
+		<module>asc-monitor</module>
 <!--		<module>common</module>-->
 <!--		<module>core</module>-->
 	</modules>

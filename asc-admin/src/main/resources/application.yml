@@ -7,3 +7,13 @@ pagehelper:
   support-methods-arguments: true
   params: count=countSql
 
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8000"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
